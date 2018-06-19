@@ -1,0 +1,75 @@
+name: Projects
+source:
+  - icon: fa fa-github
+    title: SMS Backup and Restore Parser
+    url: https://github.com/danzek/sms-backup-and-restore-parser
+    languages:
+      - Go
+    description: Parses XML output from SMS Backup & Restore Android app.
+
+  - icon: fa fa-github
+    title: BUP Summary
+    url: https://github.com/danzek/BupSummary
+    languages:
+      - Python
+    description: Gathers summary details from multiple McAfee BUP files. In other words, "unbup all the things, but just get some data."
+
+  - icon: fa fa-github
+    title: Simple EXIF Reader
+    url: https://github.com/danzek/simple-exif-reader
+    languages:
+      - C#
+      - WinForms
+    download: SimpleExifReader.zip
+    description: This is an image/movie metadata reader that provides a simplistic GUI interface to the MetadataExtractor .NET library. It features a one-click link to Google Maps for embedded location data.
+
+  - icon: fa fa-github
+    title: macOS triage
+    url: https://github.com/nrvana/macOS-triage
+    languages:
+      - Python
+    description: macOS triage is a python script to collect various macOS logs, artifacts, and other data.
+
+  - icon: fa fa-github
+    title: Google Analytics Domain Hash Calculator
+    url: https://github.com/danzek/google-analytics-domain-hash-calculator
+    languages:
+      - C#
+      - WinForms
+    download: GoogleDomainHashCalculator.exe
+    description: Calculates Google Analytics domain hash given domain name and provides simple GUI for ease of use (but is only good for calculating one at a time).
+
+  - icon: fa fa-github
+    title: gadhash
+    url: https://github.com/danzek/gadhash
+    languages:
+      - C++
+      - Boost
+    description: Calculates Google Analytics domain hash given domain(s). This is the more robust and faster CLI counterpart to the Google Analytics Domain Hash Calculator. I also posted a "rainbow table" of hashed domains in this repository using the Cisco Umbrella Popularity List (top 1 million domains).
+
+  - icon: fa fa-github
+    title: annotationis
+    url: https://github.com/danzek/annotationis
+    description: This is a central repository I use for storing notes and documentation on various OS internals and DFIR knowledge.
+
+  - icon: fa fa-chain-broken
+    title: Log2ELK
+    languages:
+      - Python
+      - wxPython
+      - Elasticsearch
+    description: CLOSED SOURCE // Intellectual property of KPMG LLP // Parses Windows event logs and ingests parsed data into Elasticsearch. Saved searches for Kibana were also created by our team to automate common searches for lateral movement, pass-the-hash activity, failed logons, antivirus events, etc. This is a standalone tool that our team continues to maintain, and this functionality has also been incorporated into KPMG Digital Responder (KDR).
+
+  - icon: fa fa-external-link
+    title: KPMG Digital Responder (KDR)
+    url: https://advisory.kpmg.us/kpmg-cyber/digital-responder.html
+    languages:
+      - Python
+      - wxPython
+      - Elasticsearch
+      - C
+      - C++
+      - PowerShell
+      - JavaScript
+      - D3
+    description: CLOSED SOURCE // Intellectual property of KPMG LLP // Automated digital forensic collection tool, multi-threaded parsing engine, and reporting.

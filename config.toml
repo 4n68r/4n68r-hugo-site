@@ -1,0 +1,45 @@
+baseurl = "https://4n68r.github.io/"
+languageCode = "en-US"
+title = "4n68r"
+copyright = "This work is licensed under a Creative Commons Attribution 4.0 International License."
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.jpg"
+  author = "Dan O'Day"
+  description = "Home page of a digital forensic analyst, incident responder, software developer, and aspiring reverse engineer"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "danzek"
+  Email         = "d@4n68r.com"
+  Twitter       = "4n68r"
+  LinkedIn      = "danieloday"
+  Stackoverflow = "users/868044/"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "speaking"
+  identifier = "speaking"
+  weight = 300
+  url = "/speaking/"

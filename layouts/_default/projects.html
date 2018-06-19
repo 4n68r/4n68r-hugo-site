@@ -1,0 +1,25 @@
+<section id="projects">
+  <div class="container">
+    <h3>{{ .Site.Data.projects.name }}</h3>
+    <p class="lead">Here are some personal and professional projects I created and/or contribute to.</p>
+    <div class="panel panel-default">
+      <div class="panel-body">
+      {{ range $_, $el := .Site.Data.projects.source }}
+        <h5>
+          <i class="{{ .icon }}"></i>&nbsp;&nbsp;
+          <strong><a href="{{ $el.url }}">{{ $el.title }}</a></strong>&nbsp;&mdash;&nbsp;
+          {{ if isset $el "languages" }}/
+            {{ range $el.languages }}
+            <span class="label label-success">{{ . }}</span>
+            {{ end }}/&nbsp;&mdash;&nbsp;
+          {{ end }}
+          {{ $el.description }}
+          {{ if isset $el "download" }}<br />
+          <strong>Download:</strong> <a href="/downloads/{{ $el.download }}">{{ $el.download }}</a>
+          {{ end }}<div style="padding-bottom:10px;"></div>
+        </h5>
+      {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
