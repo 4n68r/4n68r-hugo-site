@@ -20,7 +20,6 @@ source:
     languages:
       - C#
       - WinForms
-    download: SimpleExifReader.zip
     description: This is an image/movie metadata reader that provides a simplistic GUI interface to the MetadataExtractor .NET library. It features a one-click link to Google Maps for embedded location data.
 
   - icon: fa fa-github
@@ -36,7 +35,6 @@ source:
     languages:
       - C#
       - WinForms
-    download: GoogleDomainHashCalculator.exe
     description: Calculates Google Analytics domain hash given domain name and provides simple GUI for ease of use (but is only good for calculating one at a time).
 
   - icon: fa fa-github
