@@ -1,6 +1,11 @@
 name: Speaking / Teaching Engagements
 source:
   - title: BITS and pieces - Abusing the Background Intelligent Transfer Service (BITS) for persistence and privilege escalation
+    provider: EvolveSec
+    location: Chicago, IL
+    when: August 2018
+
+  - title: BITS and pieces - Abusing the Background Intelligent Transfer Service (BITS) for persistence and privilege escalation
     provider: BSides Iowa
     location: Des Moines, IA
     when: April 2018
