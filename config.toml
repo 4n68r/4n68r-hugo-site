@@ -32,7 +32,7 @@ theme = "hugo-sustain"
   name = "blog"
   weight = 100
   identifier = "blog"
-  url = "/blog/"
+  url = "https://laserkittens.com"
 [[menu.main]]
   name = "projects"
   identifier = "projects"
