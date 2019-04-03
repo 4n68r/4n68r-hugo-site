@@ -15,6 +15,15 @@ source:
     description: Gathers summary details from multiple McAfee BUP files. In other words, "unbup all the things, but just get some data."
 
   - icon: fa fa-github
+    title: Clop ransomware embedded resource deobfuscator
+    url: https://github.com/danzek/ransomware-sucks/tree/master/clop/decoder
+    languages:
+      - C
+      - C++
+      - Python
+    description: Decodes obfuscated resources embedded in Clop ransomware.
+
+  - icon: fa fa-github
     title: Simple EXIF Reader
     url: https://github.com/danzek/simple-exif-reader
     languages:
