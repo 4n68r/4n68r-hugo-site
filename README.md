@@ -1,6 +1,6 @@
 # 4n68r website
 
-This is the repo containing the Hugo static site files for [my GitHub Pages website](https://4n68r.github.io).
+This is the repo containing the Hugo static site files for [4n68r.com](https://4n68r.com).
 
 ## Static site
 
