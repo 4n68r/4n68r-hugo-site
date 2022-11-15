@@ -1,3 +1,94 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://4n68r.com'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageName = "English"
+title = '4n68r'
+copyright = "This work is licensed under a Creative Commons Attribution 4.0 International License."
+theme='LoveIt'
+hasCJKLanguage = false
+
+enableRobotsTXT = true
+enableEmoji = true
+paginate = 5
+
+# ignore some build errors
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+
+# author config
+[author]
+  name = "Dan O'Day"
+  email = "d@4n68r.com"
+  link = ""
+
+# menu config
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "blog"
+    name = "Blog"
+    url = "https://laserkittens.com"
+    title = "blog"
+
+[params]
+  defaultTheme = "auto"
+  dateFormat = "2006-01-02"
+  title = "4n68r"
+  description = "Dan O'Day, DFIR professional home page"
+
+  # header config
+  [params.header]
+  desktopMode = "fixed"
+  mobileMode = "auto"
+
+  [params.header.title]
+    logo = ""  # logo url
+    name = "4n68r"
+    typeit = false
+
+  [params.footer]
+    enable = true
+    hugo = true
+    copyright = true
+    author = true
+    since = 2013
+
+  [params.search]
+    enable = false
+
+  [params.home]
+    [params.home.profile]
+      enable = true
+      avatarURL = "/images/profile.jpg"
+      title = "Dan O'Day"
+  subtitle = "<p>I'm Dan, a digital archaeologist that specializes in digital forensics and incident response (DFIR).</p><p>A <b>\"4n68r\"</b> (<i>forensicator, /fə'rɛnsɪketər/</i>) is a practitioner of digital forensics.</p><p>I help to create a more secure digital world by leading teams in DFIR investigations in connection with cybersecurity incidents and other technical matters. I also provide proactive cyber risk management services based on information security best practices.</p><p>I'm a consultant and trusted advisor, analyst, software developer, expert witness, researcher, instructor and mentor, veteran, husband and father, and a perpetual student.</p><p>Feel free to connect with me using any of the provided links.</p>"
+      typeit = false
+      social = true
+
+    [params.home.posts]
+      enable = false
+
+  [params.social]
+    GitHub = "danzek"
+    Linkedin = "danieloday"
+    Twitter = "4n68r"
+    Keybase = "digital0day"
+    Stackoverflow = "868044/dan"
+    Paypal = "danzek"
+    Email = "d@4n68r.com"
+  
+    [params.social.Mastodon]
+      weight = 5
+      id = "@4n68r"
+      prefix = "https://infosec.exchange"
+
+  [params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+  [params.verification]
+    google = ""
+
+  [params.analystics]
+    enable = false
+
