@@ -50,6 +50,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     copyright = true
     author = true
     since = 2013
+    license = "<div hidden><a rel=\"me\" href=\"https://infosec.exchange/@4n68r\">Mastodon</a> verification.</div>"
 
   [params.search]
     enable = false
